@@ -2,9 +2,13 @@ import React from 'react'
 
 const WikiArea = (value) =>
 {
-    const val = value.result[2]
+    
     // console.log(val)
-return (<div className="panel-body">{val}</div>);
+return (<div className="panel panel-default">
+<div className="panel-body">{value.result[1]}<p></p>
+<div>{value.result[2]}<p></p></div>
+
+</div></div>);
     
 }
 

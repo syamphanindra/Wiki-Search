@@ -9,13 +9,13 @@ class  Search_Box extends Component
     }
     render()
     {
-      return  <input className="searchbox" onKeyPress ={event => this.onInputChange(event) }
-       type="text"  />
+      return ( <div><h2 className="searchheading">Search</h2><input className="searchbox" onKeyPress ={event => this.onInputChange(event) }
+       type="text"  /></div>);
     }
     onInputChange(event)
     {
        
-        if(event.key==='Enter')
+        if(event.key=='Enter')
         this.props.onQuery(event.target.value);
         
       

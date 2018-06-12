@@ -1,9 +1,12 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import Search_Box from './search_box';
+import Search_Box from './src/search_box';
 import _ from 'lodash'
-import WikiArea from './wikiarea'
+import WikiArea from './src/wikiarea'
+
 const API_KEY = 'af98ac93d35d56045307954fac7d7853';
+
+
 
  class App  extends Component
 {
@@ -33,6 +36,7 @@ const API_KEY = 'af98ac93d35d56045307954fac7d7853';
     const x=this.state.result;
    
   return (<div>
+    <div className="mainheading">WIKI SEARCH</div>
     <Search_Box onQuery= {changeQue} />
     <div className="panel panel-default">
     <WikiArea result={this.state.result}/>

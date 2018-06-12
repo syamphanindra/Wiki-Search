@@ -1,0 +1,36 @@
+.searchbox{
+    border-style: solid;
+    box-align: center;
+    width:50%;
+margin: 25px;
+
+
+}
+.searchbox:hover{
+    background-color:#eee;
+    cursor: pointer;
+}
+.searchheading{
+    float: left;
+    margin: 25px;
+    color:red;
+    
+}
+
+.mainheading{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background:blue;
+    background: linear-gradient(90deg, #FFFFFF 30%, #3527b3 70%); 
+}
+}
+
+.panel{
+    background-color:gainsboro;
+   
+    border: 1px solid;
+    overflow:hidden ;
+}
+.container{
+    background-color: bisque;}
